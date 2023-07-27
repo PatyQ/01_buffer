@@ -1,0 +1,10 @@
+Node.js模块化
+	//暴露数据，可以暴露任意类型数据
+	方式1
+	module.exports = funcname
+	方式2
+	exports.funcname = funcname
+引用类型的数据
+导入模块
+	js和json文件导入可以不写后缀优先导入js文件
+
