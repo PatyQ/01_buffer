@@ -14,3 +14,6 @@ Node.js模块化
 	demo node --inspect-brk index.js
 	会使用9229端口
 	chrome浏览器命令: chrome://inspect
+
+包引入规范
+	CJS和ESM
