@@ -17,3 +17,11 @@ Node.js模块化
 
 包引入规范
 	CJS和ESM
+
+---------------------------
+typescript：
+	1. 安装typescript  npm i -g typescript
+	2. 项目初始化 tsc --init, 关注tsconfig.json文件中“target”字段--把ts文件根据此标准编译为js文件
+	3. 创建接口，接口内字段类可implement但是字段必须对应。可有可无用“？”标注
+	4. 声明数组 let numArr: number[] = [1,2,3]; let strArr:string[] = ["Q","A","Z"];
+		声明对象数组 interface Dan {}; let objArr:Dan[] = [{}]
