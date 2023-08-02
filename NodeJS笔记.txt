@@ -4,6 +4,8 @@ Node.js模块化
 	module.exports = funcname
 	方式2
 	exports.funcname = funcname
+	暴露当前模块函数
+	module.exports = {func1, func2}
 引用类型的数据
 导入模块
 	js和json文件导入可以不写后缀优先导入js文件
